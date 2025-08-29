@@ -13,7 +13,6 @@
 }
 
 body {
-  max-width: 1400px;
   margin: 0 auto;
   background: #fff;
   color: var(--text);
@@ -45,9 +44,9 @@ img {
 }
 
 .navbar {
-  position: relative;             
+  position: relative;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
   border-bottom: 1px solid #ddd;
@@ -75,15 +74,16 @@ img {
 .navbar a:hover {
   color: var(--accent);
 }
+
 .logo {
-  position: absolute;  
-  left: 50%;            
+  position: absolute;
+  left: 50%;
   transform: translateX(-50%);
   font-size: clamp(1.2rem, 3vw, 1.8rem);
   font-weight: 800;
   color: var(--primary);
   text-align: center;
-  flex: none;           
+  flex: none;
 }
 
 .nav-icons {
@@ -139,17 +139,16 @@ img {
   margin-bottom: 1rem;
 }
 
+
 .text-01 {
   position: absolute;
-  top: 40%;       
-  left: 250%;      
-  transform: translate(-50%, -50%); 
-  color: white;  
+  top: 160%;
+  left: 250%;
+  transform: translate(-50%, -50%);
+  color: white;
   font-size: clamp(1rem, 1.8vw, 2rem);
   text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
 }
-
-
 
 .btn {
   background: var(--accent);
@@ -277,13 +276,13 @@ img {
   line-height: 1.6;
 }
 
+
 .collection-ivan {
-  position: relative;   
-  top: 205px;            
-  left: 0px;          
+  position: relative;
+  top: 33%;
+  left: 0%;
 }
 
-/* Responsive Tweaks */
 @media (max-width: 1024px) {
   .hero {
     height: 50vh;
@@ -302,7 +301,6 @@ img {
 
   .logo {
     flex: none;
-    
   }
 
   .collections-content {
@@ -312,5 +310,11 @@ img {
   .hero-text {
     top: 20%;
     left: 5%;
+  }
+
+  .collection-ivan {
+    top: 5%;
+    left: 0;
+    text-align: center;
   }
 }
